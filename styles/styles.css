@@ -18,3 +18,38 @@
     font-size: 25px;
     color: aliceblue;
 }
+
+/* Header's banner styles */
+.banner-container{
+    height: 100vh;
+    background-image: url('../styles/asset/image/background.jpg'), linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.primary{
+    color: red;
+}
+.description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+}
+.btn-primary{
+    background-color: red;
+    color: white;
+}
